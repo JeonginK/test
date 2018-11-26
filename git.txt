@@ -1,8 +1,12 @@
-git remote add origin master <원격저장주소> 
--> 원격저장소 등록
-git remote -v
--> 원격저장소 보기
-git push -u origin master :
--> 현재 브랜치를 원격저장소 origin의 master에 동기화하겠다.
-git remote remove <원격저장소이름>
--> 원격저장소로 등록한 이름과 주소 삭제
+git init : 현재 디렉토리에 git 저장소 (.git) 생성
+git status : 커밋되지 않은 변경사항 조회
+
+git log -p :  각각의 커밋과 커밋사이의 소스상의 차이점 확인
+
+git commit -m : vim 없이 바로 커밋메세지 작성가능
+-a : add 없이 바로 커밋
+
+git remote add origin master <원격저장주소> : 원격저장소 등록
+git remote -v : 원격저장소 보기
+git push -u origin master : 현재 브랜치를 원격저장소 origin의 master에 동기화하겠다.
+git remote remove <원격저장소이름> : 원격저장소로 등록한 이름과 주소 삭제
